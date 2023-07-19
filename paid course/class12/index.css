@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-menu {
+	background: #1abc9c;
+}
+.header-menu ul {
+	list-style-image: none;
+	list-style: none;
+	text-align: center;
+}
+
+.header-menu ul li {
+	list-style: none;
+	display: inline-block;
+	margin-left: -4px;
+}
+.header-menu ul li a {
+	text-decoration: none;
+	padding: 9px 35px;
+	display: inline-block;
+	color: #fff;
+	font-size: 20px;
+	border-right: 1px solid #ddd;
+}
+.header-menu ul li:hover > a{
+    background: #16a085;
+}
+
+.header-menu ul li:first-child{
+    border-left: 1px solid #ddd;
+}
+
+
+/* drop down menu */
+.header-menu ul li{
+    position: relative;
+}
+
+.header-menu ul li ul {
+	position: absolute;
+	left: -30px;
+	top: 100%;
+	width: 121px;
+	background: #1abc9c;
+	transition: .5s;
+}
+.header-menu ul li ul li{
+	margin-left: 0;
+    display: block;
+}
+.header-menu ul li ul li a{
+    display: block;
+	border: none;
+	border-bottom: 1px solid #ddd;
+}
+
+.header-menu ul ul li:first-child{
+    border-left:none;
+	border-top: 1px solid #ddd;
+}
+
+
+/* hover-part */
+.header-menu ul li ul{
+visibility: hidden;
+opacity: 0;
+transform: scaleY(0);
+transform-origin: top center;
+}
+.header-menu ul li:hover ul{
+	visibility: visible;
+	opacity: 1;
+	transform: scaleY(1);
+   
+}
+
+
+.header-menu ul li ul li a:hover{}
+
+/* social menu css */
+
+.social-menu{
+    text-align: center;
+}
+
+.social-menu ul{}
+.social-menu ul li {
+    color: blanchedalmond;
+    list-style: none;
+    display: inline-block;
+    background: #2980b9;
+    padding: 13px 14px;
+    font-size: 37px;
+    line-height: 50%;
+    border-radius: 50%;
+    transition: .5s;
+}
+.social-menu ul li:hover {
+    background-color: #3498db;
+    color: burlywood;
+    transform: scale(1.1);
+}
+
+/* extra part */
+
+ul,ol{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+
+ul{
+    list-style-image:url(./1.png);
+    list-style-position: inside;
+}
+

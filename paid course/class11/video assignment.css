@@ -1,0 +1,77 @@
+
+.main-div {
+	height: 400px;
+	width: 700px;
+	border: 1px solid #000;
+	margin: auto;
+	margin-bottom: 50px;
+}
+.div1 {
+  height: 200px;
+  width: 200px;
+  background: darkgreen;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.div2 {
+  height: 200px;
+  width: 200px;
+  background: darkgoldenrod;
+  display: inline-block;
+  position: absolute;
+  top: 69px;
+  left: 67px;
+}
+.div3 {
+  height: 200px;
+  width: 200px;
+  background: darkcyan;
+  display: inline-block;
+  position: absolute;
+  top: 124px;
+  right: 342px;
+}
+.signle-div {
+  position: relative;
+}
+
+
+.photo-work {
+  height: 190px;
+  width: 417px;
+  border: 1px solid #000;
+  margin: auto;
+}
+.chobi {
+  height: 142px;
+  width: 300px;
+  position: relative;
+}
+.chobi img{
+    max-width: 100%;
+    position: relative;
+}
+
+.details {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    background: rgba(70,184,90,.5);
+    visibility: hidden;
+    opacity: 0;
+    
+}
+.chobi:hover .details{
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+    transition: .5s;
+    opacity: 1;
+   
+}

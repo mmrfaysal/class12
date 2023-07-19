@@ -1,0 +1,123 @@
+.container{
+    min-width: 1300px;
+}
+
+.head{
+    font-style: italic;
+    color: #fff;
+    background-color: rgb(1, 1, 156);
+    padding: 7px;
+    border-bottom: 8px solid #000;
+  
+}
+.head h1{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 500;
+    font-family: work sans;
+}
+
+.SUP-1{
+    color: rgb(169, 7, 69);
+    font-size: 25px;
+}
+
+.SUP-2{
+color: dodgerblue;
+
+}
+
+.banner-head{
+    font-family: Dancing Script;
+    font-style: italic;
+    color: #fff;
+    background-color: GREEN;
+    text-align: center;
+    padding: 7px;
+}
+
+img{
+  width: 100%;
+  height: auto;
+
+}
+
+.photo-bottom{
+    font-family: Dancing Script;
+    font-style: italic;
+    font-size: 50px;
+    background: rgb(116, 52, 52);
+    padding: 7px;
+    text-align: center;
+
+    font-weight: 800;
+
+    margin-bottom: 10px;
+    
+}
+
+.about-us{
+    text-align: center;
+}
+
+
+.service{
+    font-size: 65px;
+    background-color: rgb(8, 79, 38);
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.web-design{
+    text-align: center;
+}
+.web-design img{
+    width: 250px;
+}
+
+
+.table-head{
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(8, 97, 212);
+    font-weight: 200;
+
+}
+
+.submit {
+    margin-left: -148px;
+    width: 98px;
+}
+
+.footer-head{
+    background-color: rgb(60, 133, 216);
+    padding: 15px;
+    color: #fff;
+}
+
+
+.footer-head h1{
+    font-family: Dancing Script;
+    font-style: italic;
+    font-weight:900;
+    font-size: 58px;
+}
+.footer-head h3{
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.footer-head p{
+    font-weight: 700;
+    font-size: 20px;
+}
+.footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+.footer span{
+    color: rgb(5, 72, 199);
+}

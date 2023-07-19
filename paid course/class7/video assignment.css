@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+ .first h1{
+    background: blue;
+}
+.first h2{
+    background: yellow;
+
+}
+ 
+.first h3{
+    background: green;
+}
+
+.box1{
+    height: 137px;
+    width: 303px;
+    background: #000;
+    margin-left: 20px;
+    border-radius: 0 57px 0 57px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+.box2{
+    height: 137px;
+    width: 303px;
+    background: #6aa937;
+    margin-left: 20px;
+    border-radius: 0 57px 0 57px;
+    text-align: center;
+   
+    padding: 20px;
+    border: 3px solid red;
+}

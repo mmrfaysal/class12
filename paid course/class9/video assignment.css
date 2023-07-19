@@ -1,0 +1,39 @@
+
+h2{
+    color: purple;
+    text-shadow: 4px 3px  red;
+}
+.div1{
+    height: 100px;
+    width: 100px;
+    background: blue;
+    transition: 0.5s; 
+}
+
+.div1:hover{
+    background: green;
+    transform: scale(1.1);
+}
+
+.other-div p{
+    color: blueviolet;
+    font-size: 32px;
+}
+
+/* 
+.herder-menu li:first-child a{
+    color: brown;
+}
+
+.herder-menu li:last-child a{
+    color: chartreuse;
+} */
+
+.header-menu li:nth-child(even) a{
+    color: blue;
+}
+
+
+.header-menu li:nth-child(odd) a{
+    color:red ;
+}

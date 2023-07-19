@@ -1,0 +1,38 @@
+.box1{
+height: 200px;
+width: 200px;
+background: rgb(241, 26, 11);
+border-radius: 50%;
+margin-left: -63px;
+margin-top: 37px;
+display: inline-block;
+}
+.box2{
+    height: 272px;
+    width: 500px;
+    background: rgb(7, 58, 9);
+    border-radius: 0;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.anda{
+    height: 150px;
+    width: 250px;
+    background: rgb(219, 141, 52);
+    border: 5px solid rgba(192, 78, 12, 0.795);
+    text-align: center;
+  border-radius: 70%;
+  padding: 50PX;
+}
+.kusum{
+
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: rgb(253, 60, 2);
+   display: inline-block;
+
+}

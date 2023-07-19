@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background: rgb(45, 45, 255);
+    color: aliceblue;
+    text-align: center;
+    padding: 3px;
+ 
+}
+
+
+ .banner-section img {
+           width: 1000px;
+        height: auto;
+        margin-top: 10px;
+    }
+
+   .banner-bottom p{
+    text-align:center;
+
+  
+   } 
+   .holud{
+    color:rgb(236, 204, 17);
+   }
+
+   .success{
+    color: rgb(0, 225, 255);
+   }
+
+   .primary{
+    color: rgb(103, 125, 248);
+   }
+
+   .service-box{
+    border: 3px solid ;
+    text-align: center;
+    display: block;
+    padding: 8px;
+   }
+
+   .item1 {
+    background: rgb(94, 10, 10);
+    color: aliceblue;
+    display: inline-block;
+    margin: 100px 65px;
+    padding: 61px;
+    border-radius: 0 57px;
+    font-size: 39px;
+}
+
+.item2 {
+    background: rgb(24, 167, 79);
+    color: pink;
+    display: inline-block;
+    margin: 10px 75px;
+    padding: 62px;
+    border-radius: 57px 0;
+    font-size: 52px;
+    float: right;
+    margin-top: 338px;
+}
+.item3 {
+    background: #084298;
+    color: #Fff;
+    display: inline-block;
+    margin: 10px 75px;
+    padding: 45px 98px;
+    border-radius: 57px 57px 57px 0;
+    font-size: 40px;
+    float: left;
+    margin-top: 220px;
+}
+
+.contact-section {
+    padding-top: 500px;
+}
+
+
+.contact-section span{
+}
+
+
+.button{
+    color: #Fff;
+    background: blue;
+
+}
+
+.bottom{
+    background: #111;
+    color: #Fff;
+    font-size: 25px;
+    padding: 10px;
+}
+.bottom h3{
+    font-size: 14px;
+}

@@ -1,0 +1,36 @@
+h2{
+    color: rgb(12, 42, 122);
+}
+
+.first-div{
+    height: 200px;
+    width: 200px;
+    background: rgb(106, 128, 29);
+}
+#another-id{
+    background: rgb(12, 99, 94);
+}
+.footer-menu li a{
+  
+    color: rgba(10, 25, 161, 0.801);
+    text-decoration: none;
+}
+div p{
+
+color: blue;
+
+}
+.header-menu li:first-child a{
+    color: brown;
+}
+.header-menu li:nth-child(1) a{ color: aqua;}
+.header-menu li:nth-child(2) a{ color: black;}
+.header-menu li:nth-child(3) a{ color: blue;}
+.header-menu li:nth-child(4) a{color: brown;}
+.header-menu li:nth-child(5) a{ color: crimson;}
+
+.first-div::marker{
+    background: orange;
+   cursor: pointer;
+   transition: .65s;
+}

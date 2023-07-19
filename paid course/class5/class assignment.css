@@ -1,0 +1,94 @@
+
+
+h1{
+    color: rgb(152, 18, 152);
+    font-size: 30px;
+}
+
+th{
+    background-color: yellow;
+}
+
+.soni{
+    background-color: rgb(229, 170, 42);
+}
+.sir{
+    background-color: rgb(254, 204, 212);
+}
+.robi{
+    background-color: rgb(253, 23, 23);
+}
+.som{
+    background-color: rgb(61, 146, 232);
+}
+.mon{
+    background-color: rgb(23, 172, 105);
+}
+.bud{
+    background-color: rgb(162, 72, 162);
+}
+.bri{
+    background-color: rgb(212, 211, 211);
+}
+.code-1{
+    background-color: rgb(253, 109, 236);
+}
+.code-2{
+    background-color: rgb(136, 75, 194);
+}
+.code-3{
+    background-color: blue;
+}
+.code-4{
+    background-color: green;
+}
+.code-5{
+    background-color: yellow;
+}
+.code-6{
+    background-color: rgb(239, 151, 43);
+}
+
+.pink{
+    background-color: rgb(235, 109, 161);
+}
+
+.green{
+    background-color: rgb(37, 207, 122);
+}
+.last{
+    background-color: rgb(198, 248, 99);
+}
+
+td{
+    text-align: center;
+}
+
+.middle-part{
+    color:rgb(139, 21, 250) ;
+    background-color: #ddd;
+    padding: 20px;
+    font-size: 20px;
+}
+.middle-part h6{
+    font-size: 20px;
+    text-align:center;
+}
+
+
+.lalu{
+    color: red;
+}
+img{
+    height: 400px;
+    width: auto;
+}
+
+.footer-section h2{
+    background: rgb(97, 235, 178);
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+
+}

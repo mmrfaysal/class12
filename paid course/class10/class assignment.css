@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.header-logo {
+    text-align: center;
+    background: #5c3fcd;
+    padding: 10px;
+}
+
+.header-logo img {
+    height: 63px;
+    width: 133px;
+}
+
+.menu{}
+
+
+.menu {
+    background: red;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 21px 38px;
+    display: inline-block;
+    border-right: 1px solid #ddd;
+    font-size: 19px;
+    font-weight: 600;
+    transition: .4s;
+    margin-left: -5px;
+}
+ul li a:hover{
+    background: #fff;
+    color: red;
+}
+.banner-text {
+    background-image: url(https://www.technologiesflare.com/wp-content/uploads/2021/11/ai-for-google-paid-campaigns.jpg);
+    background-repeat: no-repeat;
+    background-position: top center 0;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 300px 0;
+    margin-top: -16px;
+}
+.banner2-text{
+    background-image: url(https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_1280.jpg) ; 
+    background-repeat: no-repeat;
+    background-position:top center 0;
+    background-size: cover;
+    background-attachment: fixed !important;
+    padding: 400px 0;
+}
+
+
+.btc{
+    text-align: center;
+    color: #fff;
+}
+
+
+.btc h2 {
+    font-size: 37px;
+    margin-bottom: 21px;
+    color: bisque;
+    background: rgba(128, 0, 83, 0.679);
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+
+
+.btc a {
+    text-decoration: none;
+    padding: 7px 15px;
+    background: green;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 19px;
+    transition: .5s;
+    display: inline-block;
+}
+
+.btc a:hover{
+    background: rgb(8, 46, 8);
+    color: #5c3fcd;
+
+}
+
+.banner2-text.btc a{
+    text-decoration: none;
+    padding: 7px 15px;
+    background: rgb(3, 26, 77);
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 19px;
+    transition: .5s;
+    display: inline-block;
+}
+
+.banner2-text.btc a:hover{
+    background:rgb(1, 2, 45) ;
+    color: darkcyan;
+}
+
+.banner2-text.btc p{
+    background: rgba(46, 13, 106, 0.666);
+    padding: 10px;
+}
+
+
+
+.about-section {
+    background: darkslategrey;
+    padding: 70px 126px;
+}
+
+
+.about-section h1 {
+    color: grey;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.about-person {
+    display: inline-block;
+    margin-top: 54px;
+    color: darkgray;
+    margin-left: -35px;
+}
+
+.person-1 img {
+    height: 128px;
+    width: 170px;
+    display: inline-block;
+    float: left;
+    margin-right: 92px;
+}
+.person-2 img {
+    height: 128px;
+    width: 170px;
+    display: inline-block;
+    float: right;
+    margin-right: -34px;
+    margin-top: 106px;
+}
+.about-person2 {
+    display: inline-block;
+    margin-top: 148px;
+    color: darkgray;
+    margin-left: -60px;
+}
+
+
+.footer {
+    background: #260572;
+    padding: 14px;
+    text-align: center;
+}
+
+.social-media {
+    display: inline-block;
+    color: #fff;
+}
+
+.social-media h4 {
+    font-size: 17px;
+    padding: 13px 25px;
+    border: 1px solid #ddd;
+    margin-left: 23px;
+    border-radius: 15px;
+}
+
+.social-media h4:hover{
+    background: darkslateblue;
+    color: #260572;
+}

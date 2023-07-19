@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.full-website{
+    text-align: center;
+    color: aliceblue;
+    width: 1024px;
+    margin: 25px auto;
+   text-transform: capitalize;
+   box-shadow: 1px 1px 6px rgba(0, 0, 0 .4);
+}
+
+.menu{
+    background: #7b2ec4;
+}
+.footer{
+    background: #243a50;
+}
+.footer-bottom{
+    background: #2c3e50;
+
+}
+
+.containar{
+    background: #099975f6;
+}
+
+img{
+    max-width: 100% ;
+    margin-bottom: -5px;
+}
+.op{
+    padding: 30px 0;
+}

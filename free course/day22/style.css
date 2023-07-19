@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+padding: 0;    
+}
+
+h2{
+    color: olive;
+    text-align: center;
+    font-size: 40px;
+}
+h2::after{
+    content: " pore-";
+}
+h2::before{
+    content: " age";
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+p::before{
+    content: '"';
+}
+p::after{
+    content: '"';
+}
+
+/* Button 1 */
+
+.button-div1{
+    text-align: center;
+    margin-top: 50px;
+
+
+}
+.Click{
+
+    font-size: 40px;
+    text-decoration: none;
+ background: rgb(12, 31, 59);
+ display: inline-block;
+ padding: 10px 30px;
+ border-radius: 10px;
+ position: relative;
+ color: aliceblue;
+ z-index: 1;
+}
+.Click::before{
+    content: "";
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    border-radius: 10px; 
+}
+
+.Click:hover::before{
+    width: 100%;
+    transition: .5s;
+    z-index: -1;
+}
+
+/* Button 2*/
+.button-div2{
+    text-align: center;
+    margin-top: 50px;
+
+
+}
+.Next{
+
+    font-size: 40px;
+    text-decoration: none;
+ background: rgb(38, 6, 53);
+ display: inline-block;
+ padding: 10px 30px;
+ border-radius: 10px;
+ position: relative;
+ color: aliceblue;
+ z-index: 1;
+}
+.Next::before{
+    content: "";
+    height: 0%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(48, 11, 97);
+    border-radius: 10px; 
+}
+
+.Next:hover::before{
+   height: 100%;
+    transition: .5s;
+    z-index: -1;
+}
+
+
+
+/* Button 3*/
+.button-div3{
+    text-align: center;
+    margin-top: 50px;
+
+
+}
+.Previous{
+
+    font-size: 40px;
+    text-decoration: none;
+ background: rgb(61, 3, 30);
+ display: inline-block;
+ padding: 10px 30px;
+ border-radius: 10px;
+ position: relative;
+ color: aliceblue;
+ z-index: 1;
+}
+.Previous::before{
+    content: "";
+    height: 0%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(148, 10, 102);
+    border-radius: 10px; 
+}
+
+.Previous:hover::before{
+   height: 100%;
+    transition: .5s;
+    z-index: -1;
+}
+
+/* list style 1 */
+
+ul{
+    font-size: 30px;
+    list-style: none;
+}
+li{
+    margin-left: 30px;
+}
+li::before{
+    content:'\f4fc';
+    font-family: Font Awesome ;
+    font-weight: 600;
+}

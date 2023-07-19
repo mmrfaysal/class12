@@ -1,0 +1,17 @@
+h2{
+    color: yellowgreen;
+    background: blue;
+    font-size: 50px;
+}
+p{
+ line-height: 40px;
+ font-size: 20px;
+}
+h3{
+    text-align: center;
+    /* text-decoration: underline; */
+    text-transform: capitalize;
+    letter-spacing: normal;
+    word-spacing: 3px;
+text-shadow:2px 2px red;
+}

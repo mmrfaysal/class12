@@ -1,0 +1,98 @@
+.headerh2 {}
+
+.header h2 {
+    background: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    height: 336px;
+    width: 535px;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 25px 16px 19px 8px #e5e0e0;
+}
+.banner-sextion {
+    background: #e67e22;
+    padding: 100px;
+    margin-top: -10px;
+}
+
+.title-section {
+    background: #2c3e50;
+    text-align: center;
+    padding: 50px;
+}
+
+.title-section h2 {
+    color: #fff;
+}
+
+.title-section p {
+    color: #fff;
+}
+
+.title-section h4 {
+    color: #0b7faf;
+}
+
+.application-section {
+    background: #9b59b6;
+    text-align: center;
+    padding: 50px;
+}
+
+.application-section p {
+    color: #fff;
+}
+
+.application-section{
+   
+}
+
+h3.design {
+    color: green;
+}
+
+h3.development {
+    color: #cd881c;
+}
+
+h3.application {
+    color: #918d8d;
+}
+
+
+.star-section {
+    background: #f39c12;
+    text-align: center;
+    padding: 100px;
+}
+
+.star-section h1 {
+    color: black;
+    height: 150px;
+    width: 500px;
+    margin: auto;
+    background: #fff;
+    line-height: 150px;
+    border: 5px dotted #111111;
+    font-size: 70px;
+    border-radius: 10px;
+    box-shadow: 63px 33px 4px 8px #f1eded;
+}
+
+.footer {
+    background: #34495e;
+    color: #fff;
+    text-align: center;
+    display: block;
+    padding: 10px;
+}
+
+
+.footer h3 {
+    font-size: 21px;
+}

@@ -1,0 +1,152 @@
+.upper{
+    background: #34495e;
+}
+
+ul {
+	list-style: none;
+	text-align: center;
+	padding: 129px;
+}
+
+li{
+   
+    display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	padding: 13px 34px;
+	background: #ee8803;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 10px;
+	color: aliceblue;
+}
+
+.after {
+	height: 56px;
+	width: 10px;
+	background: #fff;
+	margin: auto;
+}
+li h1 {
+	color: #ee8803;
+}
+
+
+.service-section {
+    margin-bottom: 61px;
+}
+.service-boxes {
+    display: inline;
+}
+
+
+.service-section h1 {
+	text-align: center;
+	font-size: 54px;
+	color: #175717;
+	font-weight: 600;
+	border-bottom: 4px dashed darkgreen;
+	margin-bottom: 50px;
+}
+
+.service-box {
+    display: inline-block;
+    height: 315px;
+    width: 25%;
+    background: aliceblue;
+    text-align: center;
+    padding: 9px;
+    margin-left: 77px;
+    box-shadow: 0px 0px 16px -2px black;
+    border-radius: 15px;
+}
+.service-box span {
+    font-size: 60px;
+    color: #175717;
+}
+
+.service-box h2 {
+    margin-bottom: 20px;
+}
+
+.log-in-section {
+    background: #621e62;
+    text-align: center;
+    padding: 50px;
+}
+
+.circle {
+    height: 150px;
+    width: 159px;
+    background: #2c3e50;
+    display: inline-block;
+    border-radius: 50%;
+    border: 3px dotted #ee8803;
+}
+.photo {
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    border: 4px solid #ee8803;
+    border-radius: 50%;
+    margin-bottom: 207px;
+    margin-left: 15px;
+}
+.circle.one {
+    margin-top: 127px;
+    margin-left: 43px;
+}
+.circle.two {
+    margin-bottom: 103px;
+    margin-left: 45px;
+}
+
+.name {
+    height: 40px;
+    width: 300px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 27px;
+    border-radius: 5px;
+}
+
+.name {
+    height: 40px;
+    width: 300px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 27px;
+    border-radius: 25px;
+}
+
+.email {
+    height: 40px;
+    width: 300px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 27px;
+    border-radius: 25px;
+}
+.btn {
+    height: 44px;
+    width: 150px;
+    border: 1px solid black;
+    font-size: 23px;
+    color: aliceblue;
+    font-weight: 600;
+    border-radius: 25px;
+}
+
+.footer h4 {
+    text-align: center;
+    font-size: 22px;
+    background: #2c3e50;
+    color: #fff;
+    padding: 15px;
+}
